@@ -1,0 +1,102 @@
+.messenger {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+.chatMenu,
+.chatBox {
+  flex: 1;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper {
+  padding: 20px;
+  height: 100%;
+}
+
+.chatBoxTop {
+  height: 80%;
+  overflow-y: scroll;
+}
+
+.chatBoxBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatMessageInput {
+  width: 80%;
+  height: 90px;
+  padding: 10px;
+}
+
+.chatSubmitButton {
+  width: 70px;
+  height: 40px;
+  background-color: #2bcd71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.conversation {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.message.own {
+  justify-content: flex-end;
+}
+
+.messageTop {
+  display: flex;
+  align-items: center;
+}
+
+.messageImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.messageText {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  max-width: 300px;
+}
+
+.messageBottom {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.noConversationText {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+}

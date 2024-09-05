@@ -1,0 +1,165 @@
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.userSearch {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  box-shadow: #000000 0px 0px 2px;
+}
+
+.userSearchButton {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #2bcd71;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.usersCard {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.followButtonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.toggleButton {
+  padding: 8px 16px;
+  margin: 5px 0;
+  background-color: #2bcd71;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.followingsList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.following {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.followingImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.followingName {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.followButton {
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: #2bcd71;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.subHeadingName {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.errorWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.errorMessage {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* Slightly dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.closeButton {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.closeButton:hover,
+.closeButton:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modalBody {
+  max-height: 400px;
+  overflow-y: auto;
+}

@@ -1,0 +1,123 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.profileTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0px 30px 0px;
+  background-color: #e2e2e5;
+}
+
+.profileUserImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileTopRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  width: 50%;
+}
+
+.profileUserName {
+  font-size: 24px;
+  text-transform: lowercase;
+}
+
+.profileTopRightCenter {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+}
+
+.profileTopRightBottom {
+  padding-top: 25px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.profileHr {
+  width: 100%;
+}
+
+.profileBottom {
+  /* background-color: red; */
+  width: 100%;
+}
+
+.profileTopRightTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileFollowBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #2bcd71;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 15px;
+  color: #fff;
+}
+.bioEditInput {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profileUpdateSection {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileEditBtn,
+.profileUpdateBtn {
+  padding: 8px 16px;
+  background-color: #0095f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.profileUpdateBtn {
+  margin-top: 10px;
+}
+
+.closeProfileButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+.closeProfileButton:hover {
+  color: #000;
+}

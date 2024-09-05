@@ -1,0 +1,89 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #2bcd71;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Add space between profile image, buttons */
+}
+
+.profileImg {
+  width: 40px;  /* Adjust the size to make it smaller */
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.headerLogoutButton,
+.headerMessengerButton {
+  padding: 8px 16px;  /* Adjust padding for consistency */
+  font-size: 14px;    /* Adjust font size */
+  border-radius: 5px;
+}
+
+.headerLogoutButton {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.headerLogoutButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.headerMessengerButton {
+  background-color: #2bcd71;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.headerMessengerButton:hover {
+  background-color: #249a5a;
+}
+
+.messengerPopup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  width: 80%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.closeButton:hover {
+  color: #000;
+}
