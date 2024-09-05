@@ -1,4 +1,4 @@
-"node_modules/" 
-"client/node_modules/" 
-"api/node_modules/" 
-"package-lock.json" 
+node_modules/
+client/node_modules/
+api/node_modules/
+package-lock.json
