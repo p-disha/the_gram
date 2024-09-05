@@ -1,0 +1,16 @@
+{
+  "name": "image-sharing-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run start:server",
+    "client": "npm --prefix client start",
+    "start:server": "npm --prefix api start",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    // Add any top-level dependencies if needed
+  }
+}
