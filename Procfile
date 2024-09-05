@@ -1,1 +1,1 @@
-web: npm run start:server
+web: concurrently "npm run start:server" "npm --prefix client start"

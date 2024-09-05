@@ -10,5 +10,7 @@
   "engines": {
     "node": "14.x"
   },
-  "dependencies": {}
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
