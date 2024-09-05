@@ -5,12 +5,10 @@
     "start": "npm run start:server",
     "client": "npm --prefix client start",
     "start:server": "npm --prefix api start",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client && npm install --prefix api"
+    "heroku-postbuild": "npm install --legacy-peer-deps --prefix client && npm run build --prefix client && npm install --legacy-peer-deps --prefix api"
   },
   "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "14.x"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
